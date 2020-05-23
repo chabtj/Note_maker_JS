@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Text Editor</title>
+		<h1>NOTES</h1>
+		<link rel="stylesheet" href="edistyle.css">
+		<script src="edijs.js"></script>
+	</head>
+	<body>
+				<script src="edijs.js"></script>
+		
+		<section>
+			<textarea onclick='clearibox(this)' onkeypress='store(false)' rows=20 cols=100  id="ibox">please type here......
+			</textarea>
+		</section>
+		<section>
+			<form>
+				<label><strong>SELECT YOUR COLOUR:</strong><input type="color" name="boxcolour" value="#FFFFFF" id="colorselector" onchange='inputbox()' onchange="store(false)"></label> 
+				<input type="button" name="efe" id="subbut" value="SUBMIT"onclick="store(true)"  >
+
+			</form>
+
+		</section>
+		<section >
+			<form id='generate'>
+				<label><strong>
+					
+				</strong></label></form>
+			
+		</section>
+		
+
+			
+		
+	</body>
+</html>
